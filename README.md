@@ -1,4 +1,4 @@
-### Running Steps
+### Running Steps (current - v1)
 
 > Assuming you have go + curl installed already
 
@@ -20,3 +20,13 @@
 ```
   curl -X GET -H "Content-Type: application/json" -d '{"name": "User"}' http://localhost:8080/
 ```
+
+
+<br />
+
+### To be Added (v2)
+- Chunked Transfer Encoding
+- Response Compression
+- Connection Pooling
+- Rate limit
+- Connection Timeouts
